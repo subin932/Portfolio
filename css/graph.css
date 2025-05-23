@@ -1,0 +1,20 @@
+.graph{height:11px; background:#ccc;}
+.graph span{display:block; padding:0 10px; height:11px; line-height:40px; text-align:right; box-sizing:border-box; color:#333; margin:20px 0;}
+.stack span{animation:stack 2s 1; background:#003B28;}
+.stack2 span{animation:stack2 2s 1; background:#003B28;}
+.stack3 span{animation:stack3 2s 1; background:#003B28;}
+@keyframes stack{
+	0%{width:0; color:rgba(255,255,255,0);}
+	40%{color:#333;}
+	100%{width:85%;}
+}
+@keyframes stack2{
+	0%{width:0; color:rgba(255,255,255,0);}
+	40%{color:#333;}
+	100%{width:85%;}
+}
+@keyframes stack3{
+	0%{width:0; color:rgba(255,255,255,0);}
+	40%{color:#333;}
+	100%{width:75%;}
+}

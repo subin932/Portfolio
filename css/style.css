@@ -1,0 +1,886 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+#wrap_wrap{
+    min-width: 1400px;
+    overflow: hidden;
+    height: 6869px;
+}
+body {
+    font-family: Pretendard-Regular;
+    /* Prevent font scaling in landscape */
+
+    -webkit-text-size-adjust: none;
+    /*Chrome, Safari, newer versions of Opera*/
+
+    -moz-text-size-adjust: none;
+    /*Firefox*/
+
+    -ms-text-size-adjust: none;
+    /*Ie*/
+
+    -o-text-size-adjust: none;
+    /*old versions of Opera*/
+
+}
+#banner_wrap{
+    background: url(../images/배경.png) center no-repeat;
+    height: 888px;
+}
+.banner{
+    width: 1320px;
+    height: 888px;
+    margin: 0 auto;
+
+}
+.Portfolio{
+    color: #C0CE9A;
+    font-size: 24px;
+    padding-top: 363px;
+    font-size: 44px;
+}
+.Portfolio span{
+    font-weight: 500;
+}
+.title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 34px;
+    padding-bottom: 37px;
+}
+.Designer{
+    font-size: 26px;
+    color: #C0CE9A;
+    font-weight: 400;
+}
+#about_wrap{
+    height: 829px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about{
+    width: 1320px;
+    height: 829px;
+    margin: 0 auto;
+    position: relative;
+}
+.aboutme{
+    color: #003B28;
+    font-size: 55px;
+    padding-top: 194px;
+    font-weight: 500;
+}
+.about_title{
+    color: #333;
+    font-size: 20px;
+}
+.txt_wrap{
+    width: 1320px;
+    height: 366px;
+    display: flex;
+}
+.photo{
+    padding-top: 38px;
+}
+.Epilogue{
+    color: #588953;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-left: 43px;
+    padding-bottom: 31px;
+}
+.list{
+    display: flex;
+    padding-left: 43px;
+}
+.list li{
+    font-size: 16px;
+    margin-right: 8px;
+}
+.color{
+    color: #588953;
+}
+.color2{
+    color: #333;
+}
+.about_subtitle{
+    color: #333;
+    font-size: 24px;
+    padding: 20px 0 9px 43px;
+}
+.star{
+    position: absolute;
+    left: 462px;
+    top: 594px;
+    animation: star 2s infinite;
+}
+.text{
+    padding-left: 43px;
+    font-weight: 400;
+    color: #333;
+    line-height: 24px;
+}
+.text2{
+    padding-left: 43px;
+    font-weight: 400;
+    color: #333;
+    padding-top: 20px;
+    line-height: 24px;
+}
+.line{
+    position: absolute;
+    top: 169px;
+    right: 0;
+}
+#Portfolio_wrap{
+    height: 1232px;
+    position: relative;
+}
+.Portfolio2{
+    width: 1320px;
+    height: 1232px;
+    margin: 0 auto;
+}
+.Portfolio_title{
+    color: #003B28;
+    font-size: 55px;
+    padding-top: 127px;
+    font-weight: 500;
+}
+.Portfolio_txt{
+    color: #333;
+    font-size: 20px;
+    padding-top: 8px;
+}
+.contents_box1{
+    width: 1320px;
+    height: 392px;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.img_box{
+    overflow: hidden;
+}
+.img_box img{
+    display: block;
+    transition: all 0.7s;
+}
+.bibx:hover .img_box img{
+    transform: scale(1.2,1.2);
+    transition: all 0.7s;
+}
+.webstyle:hover .img_box img{
+    transform: scale(1.2,1.2);
+    transition: all 0.7s;
+}
+.site:hover .img_box img{
+    transform: scale(1.2,1.2);
+    transition: all 0.7s;
+}
+.coffeeinbusan:hover .img_box img{
+    transform: scale(1.2,1.2);
+    transition: all 0.7s;
+}
+.bibx{
+    width: 633px;
+    height: 389px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+}
+.webstyle{
+    width: 633px;
+    height: 389px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    position: relative;
+}
+.Project1{
+    color: #606060;
+    font-size: 14px;
+    position: absolute;
+    top: 313px;
+    left: 292px;
+}
+.staygoyo{
+    color: #191919;
+    font-size: 22px;
+    padding-top: 29px;
+}
+.bibx_txt{
+    position: absolute;
+    color: #588953;
+    top: 359px;
+    left: 253px;
+    font-size: 16px;
+}
+.Project1_1{
+    color: #606060;
+    font-size: 14px;
+    position: absolute;
+    top: 313px;
+    left: 292px;
+}
+.staygoyo2{
+    color: #191919;
+    font-size: 22px;
+    position: absolute;
+    top: 328px;
+    left: 258px;
+}
+.coffee_title{
+    color: #191919;
+    font-size: 22px;
+    position: absolute;
+    top: 329px;
+    left: 239px;
+}
+.web_txt{
+    position: absolute;
+    color: #588953;
+    top: 359px;
+    left: 259px;
+    font-size: 16px;
+}
+.site{
+    width: 633px;
+    height: 389px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+}
+.site_txt{
+    position: absolute;
+    color: #588953;
+    top: 359px;
+    left: 304px;
+    font-size: 16px;
+}
+.coffeeinbusan{
+     width: 633px;
+    height: 389px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    position: relative;
+    z-index: 9999;
+}
+.vedio_txt{
+    position: absolute;
+    color: #588953;
+    top: 359px;
+    left: 297px;
+    font-size: 16px;
+}
+.star2{
+   position: absolute;
+   top: 199px;
+   left: 140px;
+   animation: star2 1.5s infinite;
+}
+.line2{
+    position: absolute;
+    top: 237px;
+    left: 0;
+}
+.line3{
+    position: absolute;
+    top: 768px;
+    left: 1699px;
+}
+.line3_1{
+    position: absolute;
+    top: 801px;
+    left: 1654px;
+}
+#artwork_wrap{
+    height: 973px;
+    background-color: #e6e6e6;
+    position: relative;
+}
+.artwork{
+    width: 1320px;
+    margin: 0 auto;
+    height: 973px;
+}
+.artwork_title{
+    color: #588953;
+    font-size: 55px;
+    padding-top: 127px;
+    font-weight: 500;
+}
+.artwork_txt{
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 73px;
+}
+.work_wrap{
+    height: 513px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.work_list{
+   display: flex; 
+   justify-content: space-between;
+}
+.work_txt{
+    color: #333333;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.work_txt span{
+    font-weight: 600;
+    color: #588953;
+    font-size: 22px;
+}
+.work_box{
+    height: 513px;
+    width: 394px;
+    background-color: #fff;
+}
+.work_box img{
+    width: 100%;
+}
+.work_box{
+    overflow: hidden;
+}
+.work_box img{
+    display: block;
+    transition: all 0.5s;
+}
+.work_box:hover img{
+     transform: scale(1.1,1.1);
+    transition: all 0.5s;
+}
+.star3{
+    position: absolute;
+    top: 217px;
+    right: 182px;
+    animation: star 2s infinite;
+}
+.star7{
+    position: absolute;
+    top: 794px;
+    left: 195px;
+    animation: star2 2s infinite;
+}
+#resume_wrap{
+    height: 1671px;
+    position: relative;
+}
+.resume{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.resume_title{
+    color: #003B28;
+    font-size: 55px;
+    font-weight: 500;
+    padding-top: 127px;
+}
+.education_wrap{
+    width: 1320px;
+    height: 553px;
+    margin: 0 auto;
+    position: relative;
+}
+.edu_box{
+    width: 202px;
+    height: 43px;
+    background-color: #EDEDED;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    left: 559px;
+}
+.edu_txt{
+    color: #333;
+    padding-top: 9px;
+    font-size: 22px;
+}
+.resume_line{
+    height: 498px;
+    width: 3px;
+    background-color: #EDEDED;
+    position: absolute;
+    top: 46px;
+    left: 660px;
+}
+.icon{
+    position: absolute;
+    top: 158px;
+    left: 626px;
+}
+.icon2{
+    position: absolute;
+    top: 317px;
+    left: 626px;
+}
+.icon3{
+    position: absolute;
+    top: 476px;
+    left: 626px;
+}
+.school{
+    color: #333;
+    font-size: 25px;
+    position: absolute;
+    top: 134px;
+    left: 414px;
+}
+.gradu{
+    font-size: 20px;
+    color: #9A9898;
+    position: absolute;
+    top: 177px;
+    left: 503px;
+}
+.univ{
+    position: absolute;
+    color: #333;
+    font-size: 25px;
+    top: 287px;
+    left: 721px;
+}
+.period{
+    font-size: 20px;
+    color: #9A9898;
+    position: absolute;
+    top: 330px;
+    left: 722px;
+}
+.academy{
+    position: absolute;
+    color: #333;
+    font-size: 25px;
+    top: 452px;
+    left: 392px;
+}
+.period2{
+    font-size: 20px;
+    color: #9A9898;
+    position: absolute;
+    top: 495px;
+    left: 432px;
+}
+.experience_wrap{
+    width: 1320px;
+    height: 745px;
+    position: relative;
+}
+.ex_box{
+    background-color: #EDEDED;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 545px;
+    width: 230px;
+    height: 43px;
+}
+.ex_txt{
+    color: #333;
+    padding-top: 9px;
+    font-size: 22px;
+}
+.resume_line2{
+    width: 3px;
+    height: 666px;
+    background-color: #EDEDED;
+    position: absolute;
+    top: 93px;
+    left: 660px;
+}
+.icon4{
+    position: absolute;
+    top: 210px;
+    left: 626px;
+}
+.icon5{
+    position: absolute;
+    top: 376px;
+    left: 626px;
+}
+.icon6{
+    position: absolute;
+    top: 540px;
+    left: 626px;
+}
+.icon7{
+    position: absolute;
+    top: 708px;
+    left: 626px;
+}
+.place1{
+    color: #333;
+    font-size: 25px;
+    position: absolute;
+    top: 186px;
+    left: 349px;
+}
+.period3{
+    color: #9A9898;
+    font-size: 20px;
+    position: absolute;
+    top: 229px;
+    left: 542px;
+}
+.job1{
+    color: #3F3F3F;
+    font-size: 18px;
+    position: absolute;
+    top: 266px;
+    left: 357px;
+}
+.place2{
+    color: #333;
+    font-size: 25px;
+    position: absolute;
+    top: 352px;
+    left: 543px;
+}
+.period4{
+    color: #9A9898;
+    font-size: 20px;
+    position: absolute;
+    top: 395px;
+    left: 540px; 
+}
+.job2{
+    color: #3F3F3F;
+    font-size: 18px;
+    position: absolute;
+    top: 432px;
+    left: 327px;
+}
+.place3{
+    color: #333;
+    font-size: 25px;
+    position: absolute;
+    top: 518px;
+    left: 721px;
+}
+.period5{
+    color: #9A9898;
+    font-size: 20px;
+    position: absolute;
+    top: 561px;
+    left: 722px;
+}
+.job3{
+    color: #3F3F3F;
+    font-size: 18px;
+    position: absolute;
+    top: 598px;
+    left: 722px;
+}
+.place4{
+    color: #333;
+    font-size: 25px;
+    position: absolute;
+    top: 684px;
+    left: 409px;
+}
+.period6{
+     color: #9A9898;
+    font-size: 20px;
+    position: absolute;
+    top: 727px;
+    left: 540px;
+}
+.job4{
+    color: #3F3F3F;
+    font-size: 18px;
+    position: absolute;
+    top: 764px;
+    left: 305px;
+}
+.star4{
+    position: absolute;
+    top: 788px;
+    left: 167px;
+    animation: star 2s infinite;
+}
+.star5{
+    position: absolute;
+    top: 895px;
+    left: 133px;
+    animation: star2 1.5s infinite;
+}
+.kimsubin{
+    position: absolute;
+    top: 716px;
+    left: 1687px;
+    animation: star2 2s infinite;
+}
+.star6{
+    position: absolute;
+    top: 1313px;
+    left: 1687px;
+    animation: star 2s infinite;
+}
+#skill_wrap{
+    height: 923px;
+}
+.skill{
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+.Skill_title{
+    color: #003B28;
+    font-size: 55px;
+    padding-top: 127px;
+    font-weight: 500;
+}
+.chart3{
+    margin-top: 83px;
+}
+.chart_list{
+    display: flex;
+    justify-content: space-between;
+    -webkit-font-smoothing: antialiased;
+}
+.percent1{
+    color: #333;
+    font-size: 18px;
+     position: absolute;
+    top: 80px;
+    left: 50px;
+    text-align: center;
+}
+.circle1{
+    font-size: 16px;
+    color: #797979;
+}
+.percent2{
+    color: #333;
+    font-size: 18px;
+     position: absolute;
+    top: 80px;
+    left: 75px;
+    text-align: center;
+}
+.circle2{
+    font-size: 16px;
+    color: #797979;
+}
+.percent3{
+    color: #333;
+    font-size: 18px;
+     position: absolute;
+    top: 80px;
+    left: 76px;
+    text-align: center;
+}
+.circle3{
+    font-size: 16px;
+    color: #797979;
+}
+.percent4{
+    color: #333;
+    font-size: 18px;
+     position: absolute;
+    top: 80px;
+    left: 65px;
+    text-align: center;
+}
+.circle4{
+    font-size: 16px;
+    color: #797979;
+}
+.percent5{
+    color: #333;
+    font-size: 18px;
+     position: absolute;
+    top: 80px;
+    left: 60px;
+    text-align: center;
+}
+.circle5{
+    font-size: 16px;
+    color: #797979;
+}
+.percent6{
+    color: #333;
+    font-size: 18px;
+     position: absolute;
+    top: 80px;
+    left: 65px;
+    text-align: center;
+}
+.circle6{
+    font-size: 16px;
+    color: #797979;
+}
+.percent7{
+    color: #333;
+    font-size: 18px;
+     position: absolute;
+    top: 80px;
+    left: 53px;
+    text-align: center;
+}
+.circle7{
+    font-size: 16px;
+    color: #797979;
+}
+.percent8{
+    color: #333;
+    font-size: 18px;
+     position: absolute;
+    top: 80px;
+    left: 50px;
+    text-align: center;
+}
+.circle8{
+    font-size: 16px;
+    color: #797979;
+}
+#contact_wrap{
+    height: 352px;
+    background-color: #588953;
+}
+.contact{
+    width: 1320px;
+    margin: 0 auto;
+}
+.contact_title{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+.list_wrap{
+    width: 1320px;
+    height: 146px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_list{
+    color: #fff;
+    display: flex;
+    padding-top: 40px;
+}
+.phone_list{
+    font-size: 30px;
+    padding-left: 32px;
+    padding-top: 10px;
+}
+.phone_list span{
+    font-weight: 500;
+    font-size: 35px;
+}
+.mail_list{
+    font-size: 30px;
+    padding-left: 32px;
+    padding-top: 10px;
+}
+.mail_list span{
+    font-weight: 500;
+    font-size: 35px;
+}
+.top_button{
+    border-radius: 100%;
+    background-color: #191919;
+    color: #fff;
+    position: fixed;
+    width: 70px;
+    height: 45px;
+    text-align: center;
+    right: 70px;
+    bottom: 90px;
+    padding-top: 25px;
+    transition: all 0.5s;
+}
+.top_button:hover{
+    opacity: 80%;
+}
+.top_button a{
+    display: block;
+}
+.copyright{
+    color: #fff;
+    margin-top: 60px;
+    font-size: 18px;
+}
+@keyframes star{
+    10%{
+        opacity: 10%;
+    }
+    20%{
+        opacity: 20%;
+    }
+    30%{
+        opacity: 30%;
+    }
+    40%{
+        opacity: 40%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    60%{
+        opacity: 60%;
+    }
+    70%{
+        opacity: 70%;
+    }
+    80%{
+        opacity: 80%;
+    }
+    90%{
+        opacity: 90%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes star2{
+    10%{
+        opacity: 100%;
+    }
+    20%{
+        opacity: 90%;
+    }
+    30%{
+        opacity: 80%;
+    }
+    40%{
+        opacity: 70%;
+    }
+    50%{
+        opacity: 60%;
+    }
+    60%{
+        opacity: 50%;
+    }
+    70%{
+        opacity: 40%;
+    }
+    80%{
+        opacity: 30%;
+    }
+    90%{
+        opacity: 20%;
+    }
+    
+}
